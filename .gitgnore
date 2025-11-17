@@ -19,6 +19,9 @@ pnpm-debug.log*
 .env.*.local
 secrets.json
 local.settings.json
+.env
+.env.local
+.env.*
 
 # --- Dependency directories ---
 node_modules/
