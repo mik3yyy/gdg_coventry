@@ -1,0 +1,132 @@
+# GDG default .gitignore
+# Generic OS / editor / language ignores useful for small teams and community projects
+
+# --- OS ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Logs ---
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# --- Environment / secrets ---
+.env
+.env.local
+.env.*.local
+secrets.json
+local.settings.json
+
+# --- Dependency directories ---
+node_modules/
+jspm_packages/
+bower_components/
+
+# --- Build / distribution ---
+dist/
+build/
+out/
+release/
+public/build/
+*.tgz
+
+# --- Package manager locks (optional to ignore) ---
+# If you prefer to track lockfiles, remove these
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+venv/
+.env/
+env/
+.venv/
+pip-wheel-metadata/
+*.egg-info/
+dist/
+build/
+
+# --- Java / Android / Gradle ---
+*.class
+*.jar
+*.war
+*.ear
+*.apk
+*.keystore
+*.iml
+.gradle/
+build/
+out/
+local.properties
+
+# --- IDEs & editors ---
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+*.tmproj
+*.project
+*.classpath
+
+# --- JetBrains (IntelliJ, Android Studio) ---
+.idea/
+*.iml
+*.iws
+workspace.xml
+tasks.xml
+usage.statistics.xml
+
+# --- VS Code ---
+.vscode/
+.history/
+
+# --- Mac / Hidden files ---
+.Spotlight-V100
+.Trashes
+Icon?
+
+# --- Archives and binaries ---
+*.exe
+*.dll
+*.so
+*.dylib
+*.lib
+*.obj
+*.o
+*.a
+*.class
+
+# --- Temporary files ---
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+.idea/**/workspace.xml
+
+# --- Coverage ---
+coverage/
+coverage.*.json
+*.lcov
+
+# --- Reports / generated stuff ---
+report/
+reports/
+*.pdf
+
+# --- Misc ---
+*.log.*
+.cache/
+.DS_Store?
+npm-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# End of GDG default .gitignore

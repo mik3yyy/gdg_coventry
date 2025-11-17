@@ -1,0 +1,161 @@
+export const mockProjects = [
+  {
+    id: '1',
+    title: 'AI-Powered Task Manager',
+    description: 'A smart task management application that uses AI to prioritize tasks and suggest optimal scheduling. Built with React, Node.js, and OpenAI API.',
+    image_url: 'https://readdy.ai/api/search-image?query=modern%20task%20management%20application%20interface%20with%20AI%20features%2C%20clean%20dashboard%20design%2C%20blue%20and%20white%20color%20scheme%2C%20productivity%20app%20screenshot&width=800&height=400&seq=project-1&orientation=landscape',
+    github_url: 'https://github.com/johndoe/ai-task-manager',
+    live_url: 'https://ai-taskmanager.demo.com',
+    tech_stack: ['React', 'Node.js', 'OpenAI API', 'MongoDB', 'TypeScript'],
+    category_id: 'web',
+    author_id: 'user-1',
+    status: 'approved' as const,
+    featured: true,
+    likes_count: 45,
+    created_at: '2024-01-15T10:00:00Z',
+    updated_at: '2024-01-15T10:00:00Z',
+    author: {
+      id: 'user-1',
+      email: 'sarah@example.com',
+      full_name: 'Sarah Johnson',
+      avatar_url: 'https://readdy.ai/api/search-image?query=professional%20headshot%20of%20a%20young%20female%20developer%2C%20friendly%20smile%2C%20modern%20office%20background&width=150&height=150&seq=author-1&orientation=squarish',
+      role: 'member' as const,
+      created_at: '2024-01-01T00:00:00Z',
+      updated_at: '2024-01-01T00:00:00Z'
+    }
+  },
+  {
+    id: '2',
+    title: 'E-Commerce Mobile App',
+    description: 'A full-featured e-commerce mobile application with payment integration, real-time notifications, and advanced search capabilities.',
+    image_url: 'https://readdy.ai/api/search-image?query=modern%20e-commerce%20mobile%20app%20interface%2C%20shopping%20cart%2C%20product%20listings%2C%20clean%20mobile%20design%2C%20purple%20and%20white%20theme&width=800&height=400&seq=project-2&orientation=landscape',
+    github_url: 'https://github.com/alexdev/ecommerce-app',
+    live_url: 'https://shopapp.demo.com',
+    tech_stack: ['React Native', 'Firebase', 'Stripe', 'Redux', 'JavaScript'],
+    category_id: 'mobile',
+    author_id: 'user-2',
+    status: 'approved' as const,
+    featured: true,
+    likes_count: 38,
+    created_at: '2024-01-20T14:30:00Z',
+    updated_at: '2024-01-20T14:30:00Z',
+    author: {
+      id: 'user-2',
+      email: 'alex@example.com',
+      full_name: 'Alex Chen',
+      avatar_url: 'https://readdy.ai/api/search-image?query=professional%20headshot%20of%20a%20young%20asian%20male%20developer%2C%20confident%20expression%2C%20tech%20startup%20environment&width=150&height=150&seq=author-2&orientation=squarish',
+      role: 'member' as const,
+      created_at: '2024-01-01T00:00:00Z',
+      updated_at: '2024-01-01T00:00:00Z'
+    }
+  },
+  {
+    id: '3',
+    title: 'Data Visualization Dashboard',
+    description: 'Interactive dashboard for visualizing complex datasets with real-time updates, custom charts, and export capabilities.',
+    image_url: 'https://readdy.ai/api/search-image?query=modern%20data%20visualization%20dashboard%20with%20charts%20and%20graphs%2C%20analytics%20interface%2C%20dark%20theme%20with%20colorful%20data%20visualizations&width=800&height=400&seq=project-3&orientation=landscape',
+    github_url: 'https://github.com/mariadev/data-viz',
+    live_url: 'https://dataviz.demo.com',
+    tech_stack: ['Vue.js', 'D3.js', 'Python', 'FastAPI', 'PostgreSQL'],
+    category_id: 'data',
+    author_id: 'user-3',
+    status: 'approved' as const,
+    featured: false,
+    likes_count: 29,
+    created_at: '2024-01-25T09:15:00Z',
+    updated_at: '2024-01-25T09:15:00Z',
+    author: {
+      id: 'user-3',
+      email: 'maria@example.com',
+      full_name: 'Maria Rodriguez',
+      avatar_url: 'https://readdy.ai/api/search-image?query=professional%20headshot%20of%20a%20young%20latina%20data%20scientist%2C%20warm%20smile%2C%20modern%20tech%20office%20background&width=150&height=150&seq=author-3&orientation=squarish',
+      role: 'mentor' as const,
+      created_at: '2024-01-01T00:00:00Z',
+      updated_at: '2024-01-01T00:00:00Z'
+    }
+  },
+  {
+    id: '4',
+    title: 'Blockchain Voting System',
+    description: 'Secure and transparent voting system built on blockchain technology with smart contracts and decentralized architecture.',
+    image_url: 'https://readdy.ai/api/search-image?query=blockchain%20voting%20system%20interface%2C%20secure%20digital%20voting%20platform%2C%20modern%20web3%20design%20with%20blockchain%20elements&width=800&height=400&seq=project-4&orientation=landscape',
+    github_url: 'https://github.com/davidtech/blockchain-voting',
+    live_url: 'https://blockvote.demo.com',
+    tech_stack: ['Solidity', 'Web3.js', 'React', 'Ethereum', 'IPFS'],
+    category_id: 'blockchain',
+    author_id: 'user-4',
+    status: 'pending' as const,
+    featured: false,
+    likes_count: 22,
+    created_at: '2024-02-01T16:45:00Z',
+    updated_at: '2024-02-01T16:45:00Z',
+    author: {
+      id: 'user-4',
+      email: 'david@example.com',
+      full_name: 'David Kim',
+      avatar_url: 'https://readdy.ai/api/search-image?query=professional%20headshot%20of%20a%20young%20korean%20blockchain%20developer%2C%20serious%20expression%2C%20futuristic%20tech%20background&width=150&height=150&seq=author-4&orientation=squarish',
+      role: 'member' as const,
+      created_at: '2024-01-01T00:00:00Z',
+      updated_at: '2024-01-01T00:00:00Z'
+    }
+  },
+  {
+    id: '5',
+    title: 'IoT Home Automation',
+    description: 'Smart home automation system with IoT sensors, mobile control, and energy monitoring capabilities.',
+    image_url: 'https://readdy.ai/api/search-image?query=smart%20home%20automation%20dashboard%20interface%2C%20IoT%20control%20panel%2C%20modern%20home%20technology%20interface%20with%20device%20controls&width=800&height=400&seq=project-5&orientation=landscape',
+    github_url: 'https://github.com/emilyiot/smart-home',
+    live_url: 'https://smarthome.demo.com',
+    tech_stack: ['Arduino', 'Raspberry Pi', 'Node.js', 'MQTT', 'React'],
+    category_id: 'iot',
+    author_id: 'user-5',
+    status: 'approved' as const,
+    featured: true,
+    likes_count: 41,
+    created_at: '2024-02-05T11:20:00Z',
+    updated_at: '2024-02-05T11:20:00Z',
+    author: {
+      id: 'user-5',
+      email: 'emily@example.com',
+      full_name: 'Emily Watson',
+      avatar_url: 'https://readdy.ai/api/search-image?query=professional%20headshot%20of%20a%20young%20female%20IoT%20engineer%2C%20innovative%20expression%2C%20electronics%20lab%20background&width=150&height=150&seq=author-5&orientation=squarish',
+      role: 'mentor' as const,
+      created_at: '2024-01-01T00:00:00Z',
+      updated_at: '2024-01-01T00:00:00Z'
+    }
+  },
+  {
+    id: '6',
+    title: 'Machine Learning Image Classifier',
+    description: 'Advanced image classification system using deep learning with real-time processing and high accuracy rates.',
+    image_url: 'https://readdy.ai/api/search-image?query=machine%20learning%20image%20classification%20interface%2C%20AI%20model%20dashboard%2C%20neural%20network%20visualization%20with%20image%20processing&width=800&height=400&seq=project-6&orientation=landscape',
+    github_url: 'https://github.com/rajml/image-classifier',
+    live_url: 'https://mlclassifier.demo.com',
+    tech_stack: ['Python', 'TensorFlow', 'OpenCV', 'Flask', 'Docker'],
+    category_id: 'ai',
+    author_id: 'user-6',
+    status: 'approved' as const,
+    featured: false,
+    likes_count: 35,
+    created_at: '2024-02-10T13:30:00Z',
+    updated_at: '2024-02-10T13:30:00Z',
+    author: {
+      id: 'user-6',
+      email: 'raj@example.com',
+      full_name: 'Raj Patel',
+      avatar_url: 'https://readdy.ai/api/search-image?query=professional%20headshot%20of%20a%20young%20indian%20AI%20researcher%2C%20thoughtful%20expression%2C%20machine%20learning%20lab%20background&width=150&height=150&seq=author-6&orientation=squarish',
+      role: 'member' as const,
+      created_at: '2024-01-01T00:00:00Z',
+      updated_at: '2024-01-01T00:00:00Z'
+    }
+  }
+]
+
+export const mockCategories = [
+  { id: 'web', name: 'Web Development', description: 'Frontend and backend web applications', icon: 'ri-global-line', color: '#3B82F6' },
+  { id: 'mobile', name: 'Mobile Apps', description: 'iOS and Android applications', icon: 'ri-smartphone-line', color: '#10B981' },
+  { id: 'data', name: 'Data Science', description: 'Data analysis and visualization', icon: 'ri-bar-chart-line', color: '#8B5CF6' },
+  { id: 'blockchain', name: 'Blockchain', description: 'Decentralized applications', icon: 'ri-links-line', color: '#F59E0B' },
+  { id: 'iot', name: 'IoT', description: 'Internet of Things projects', icon: 'ri-wifi-line', color: '#EF4444' },
+  { id: 'ai', name: 'AI/ML', description: 'Artificial Intelligence and Machine Learning', icon: 'ri-brain-line', color: '#06B6D4' }
+]
